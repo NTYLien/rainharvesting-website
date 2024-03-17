@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./shoppingcart.css">
+    <script src="https://kit.fontawesome.com/a2aa83bba1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="shoppingcart-page">
+        <h1>Your Shopping Cart</h1>
+        <div class="total-cost-text">Total: <span class="total-cost-number">24.4$</span></div>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Product</th>
+                <th>Price (USD)</th>
+                <th>Quantity</th>
+                <th>Total(USD)</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td data-cell="No: " class="No">1</td>
+                <td data-cell class="product-item">
+                    <img src="https://picsum.photos/200" alt="product-image">
+                    <div class="product-info">
+                        <a href="#" class="product-name">Name ABCXYZ</a>
+                        <p class="product-code">Product Code: <span>xxxx</span>
+                        </p>
+                    </div>
+
+                </td>
+                <td data-cell="Price: " class="price">12 <span>$</span></td>
+                <td data-cell class="quantiy">
+                    <div class="button-quantity">
+                        <button class="increase">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <input type="text" value="2" />
+                        <button class="decrease">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                </td>
+                <td data-cell="Total: " class="total">24 <span>$</span></td>
+                <td data-cell class="remove-btn"><i class="fa-solid fa-trash"></i></td>
+            </tr>
+
+
+        </table>
+        <div class="btn-groups">
+            <button class="back-btn">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                Continue to shopping</button>
+            <button class="checkout-btn">Check out
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

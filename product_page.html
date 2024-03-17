@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-page</title>
+    <link rel="stylesheet" href="./product_page.css">
+    <script src="https://kit.fontawesome.com/a2aa83bba1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="product-page">
+        <div class="filter-category">
+            <div class="sidebar">
+                <nav class="text">
+                    <div class="title">Filter Products</div>
+                    <ul>
+                        <li><a href="#" class="commercial-btn">Commercial
+                                <span class="fa-solid fa-caret-down"></span> </span>
+                            </a></li>
+
+                        <ul class="commercial-show">
+                            <li><a href="#">Filters
+                                    <input type="checkbox">
+                                </a></li>
+                            <li><a href="#">Tanks
+                                    <input type="checkbox">
+                                </a></li>
+                            <li><a href="#">Pum & Controls
+                                    <input type="checkbox">
+                                </a></li>
+                        </ul>
+                        <li> <a href="#" class="residential-btn">Residential
+                                <span class="fa-solid fa-caret-down"> </span>
+                            </a></li>
+                        <ul class="residential-show">
+                            <li><a href="#">Filters
+                                    <input type="checkbox">
+                                </a></li>
+                            <li><a href="#">Tanks
+                                    <input type="checkbox">
+                                </a></li>
+                            <li><a href="#">Pum & Controls
+                                    <input type="checkbox">
+                                </a></li>
+
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Product session -->
+        <div class="products">
+            <div class="container">
+                <h1 class="lg-title">Special Shoes with Offers</h1>
+                <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis vitae ipsum
+                    vero. Id, voluptas laboriosam! Quo incidunt mollitia adipisci, suscipit vitae rem ab voluptas
+                    distinctio
+                    nam, facilis excepturi ipsa voluptatem!</p>
+
+
+                <div class="product-item">
+
+
+                    <!-- single product -->
+                    <div class="product">
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://picsum.photos/200?random=1" alt="product image">
+                                <button type="button" class="btn-quickview">Quick view
+                                </button>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="#" class="product-name">Name ABCXYZ</a>
+                                <p class="product-code">Product Code: <span>xxxx</span>
+                                </p>
+                                <p class="product-price">$123</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of single product -->
+
+
+                    <!-- single product -->
+                    <div class="product">
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://picsum.photos/200?random=1" alt="product image">
+                                <button type="button" class="btn-quickview">Quick view
+                                </button>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="#" class="product-name">Name ABCXYZ</a>
+                                <p class="product-code">Product Code: <span>xxxx</span>
+                                </p>
+                                <p class="product-price">$123</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of single product -->
+
+
+                    <!-- single product -->
+                    <div class="product">
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://picsum.photos/200?random=1" alt="product image">
+                                <button type="button" class="btn-quickview">Quick view
+                                </button>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="#" class="product-name">Name ABCXYZ</a>
+                                <p class="product-code">Product Code: <span>xxxx</span>
+                                </p>
+                                <p class="product-price">$123</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of single product -->
+
+
+                    <!-- single product -->
+                    <div class="product">
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://picsum.photos/200?random=1" alt="product image">
+                                <button type="button" class="btn-quickview">Quick View
+                                </button>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="#" class="product-name">Name ABCXYZ</a>
+                                <p class="product-code">Product Code: <span>xxxx</span>
+                                </p>
+                                <p class="product-price">$123</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of single product -->
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $('.commercial-btn').click(function () {
+            $('nav ul .commercial-show').toggleClass("show");
+
+        })
+
+        $('.residential-btn').click(function () {
+            $('nav ul .residential-show').toggleClass("show1");
+
+        })
+    </script>
+
+</body>
+
+</html>
