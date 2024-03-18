@@ -1,0 +1,104 @@
+ img {
+     float: left;
+     width: 200px;
+     height: 100px;
+     padding: 20px;
+     margin: auto;
+     bottom: 20px;
+ }
+
+ .Search {
+     order: -1 !important;
+     padding-right: 13px !important;
+     align-content: end;
+     position: relative;
+     left: 800px;
+     top: 80px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     font-size: 10px;
+     position: relative;
+     right: 40px;
+     color: #3c99ce;
+
+ }
+
+ nav a {
+
+     color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+     font-stretch: normal;
+     font-display: swap;
+
+ }
+
+ .Items {
+
+
+     background-color: white;
+     border: 15px 15px 15px 15px;
+     font-size: 15px;
+     height: 30px;
+     width: 80px;
+     text-align: center;
+     align-items: right;
+     position: relative;
+     left: 990px;
+     bottom: 86px;
+
+ }
+
+ .Login {
+
+     background-color: white;
+     border: 5px 5px 5px 5px;
+     font-size: 15px;
+     height: 30px;
+     width: 80px;
+     text-align: center;
+     position: relative;
+     left: 1065px;
+     bottom: 86px;
+
+
+ }
+
+ .Icon {
+
+     background-color: white;
+     border: 5px 5px 5px 5px;
+     font-size: 15px;
+     height: 30px;
+     width: 80px;
+     position: relative;
+     left: 1150px;
+     bottom: 87px;
+
+
+ }
+
+ nav a:hover {
+     color: red;
+ }
+ #contactForm {
+    background-color: #DFF0D8;
+    padding: 20px;
+  }
+  
+  #contactForm label,
+  #contactForm input,
+  #contactForm textarea,
+  #contactForm button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+  }
+  
