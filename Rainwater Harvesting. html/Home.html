@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainwater Harvesting</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Home.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="Home.js"></script> 
+    
+</head>
+<body>
+    <header id="top">
+    
+      <!-- logo image -->
+      <a href="Home.html">
+        <img src="Image/LOGO LIEN RAINWATER-01.jpg" alt="LOGO" class="logo">
+      </a>
+    
+      <!-- search -->
+      <span class="gala--search" style="left: 3px;"></span> <input type="text" placeholder=" Search..." class="search">
+    
+      <!-- shopping cart -->
+      <button class="cart">
+        <span class="gravity-ui--shopping-cart"></span>
+        <span>0 Items</span>
+      </button>
+    
+      <!-- wishlist -->
+      <a href="Wishlist.html">
+        <button class="wishlist">
+          <span class="ph--heart-fill"></span>
+        </button>
+      </a>
+    
+      <!-- log in -->
+    
+      <button data-bs-toggle="modal" data-bs-target="#myModal" class="login">
+        <span>LOG IN</span>
+        <span class="mdi--user-circle"></span>
+      </button>
+    
+      <!-- The Modal of log in -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <img src="Image/LOGO LIEN RAINWATER-01.jpg" alt="LOGO" class="logologin">
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div>
+                <div class="modal-title" style="text-align: center;">
+                  <h1 style="color: #0766ad; font-weight: bold; "><span class="mdi--user-circle"></span>Log In
+                  </h1>
+                  <p>with your Rainharvesting account</p>
+                </div>
+    
+                <div>
+                  <button class="another-signin">
+                    <span class="flat-color-icons--google"></span>Sign in with google
+                  </button>
+      
+                  <button class="another-signin">
+                    <span class="logos--facebook"></span>Sign in with facebook
+                  </button>
+                </div>
+              </div>
+    
+              <div class="mycontainer">
+                <div class="InputLogin">
+                  <h5 style="color: #0766ad; font-weight: bold;">Email:</h5>
+                <input type="email" style="border: #0766ad 2px solid; width: 400px;">
+    
+                <h5 style="color: #0766ad; font-weight: bold;">Password</h5>
+                <input type="password" style="border: #0766ad 2px solid; width: 400px;">
+    
+                <a href="" style="color: #29ADB2;">
+                  <h6>Forget your password?</h6>
+                </a>
+                </div>
+    
+                <button class="loginbutton">
+                  <h5>LOG IN</h5>
+                </button>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer" style="background-color: #29ADB2; justify-content: center;">
+              or <h5><a data-bs-toggle="modal" data-bs-target="#myModalSignUp" style="color: white; "> Create an
+                  Account</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- The Modal of create account-->
+      <div class="modal" id="myModalSignUp">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <img src="Image/LOGO LIEN RAINWATER-01.jpg" alt="LOGO" class="logologin">
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="modal-title" style="text-align: center;">
+                <h1 style="color: #0766ad; font-weight: bold; "><span class="mdi--user-circle"></span>Create an Account
+                </h1>
+              </div>
+    
+              <div>
+                <button class="another-signin">
+                  <span class="flat-color-icons--google"></span>Sign in with google
+                </button>
+    
+                <button class="another-signin">
+                  <span class="logos--facebook"></span>Sign in with facebook
+                </button>
+              </div>
+            </div>
+    
+            <div class="mycontainer">
+              <h5 style="color: #0766ad; font-weight: bold;">Username:</h5>
+              <input type="text" style="border: #0766ad 2px solid; width: 400px;">
+    
+              <h5 style="color: #0766ad; font-weight: bold;">Email:</h5>
+              <input type="email" style="border: #0766ad 2px solid; width: 400px;">
+    
+              <h5 style="color: #0766ad; font-weight: bold;">Password:</h5>
+              <input type="password" style="border: #0766ad 2px solid; width: 400px;">
+    
+              <h5 style="color: #0766ad; font-weight: bold;">Confirm Password:</h5>
+              <input type="password" style="border: #0766ad 2px solid; width: 400px;">
+    
+              <div style="margin: 5px;">
+                <input type="checkbox" name="" id=""> I consent to Rainwater Harvesting collecting and
+                managing my personal information in accordance with the Rainwater Harvesting Privacy Policy
+                and Terms and Conditions.
+                <br>
+                <input type="checkbox" name="" id=""> Send me the latest Rainwater Harvesting updates, with
+                newsletters, catalogues and helpful tips.
+              </div>
+    
+              <button class="SignUpButton">
+                <h5>Create Account</h5>
+              </button>
+    
+            </div>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer" style="background-color: #29ADB2;">
+          </div>
+        </div>
+      </div>
+      </div>
+    
+    </header>
+
+    <nav style="margin-bottom: 10px;">
+        <a href="">PRODUCTS</a>
+        <a href="">LEARN & ASK</a>
+        <a href="">OUR PROJECT</a>
+        <a href="">LATEST NEWS</a>
+        <a href="">ABOUT US</a>
+        <a href="">INTERACTIVE TOOLS</a>
+        <a href="">CONTACT US</a>
+    </nav>
+
+    <section>
+        <!-- section 1 -->
+        <div>
+          <img src="Image/home image.jpg" alt="" class="homeimage">
+          <figure>
+            <span id="musicIcon" class="play-icon">🎵</span>
+            <audio id="music" autoplay loop >
+                <source src="onlymp3.to - _piano_asmr__3시간_연속듣기___빗소리와_함께_듣는_피아노___시청각_asmr___piano_music___rain_sounds-ru-O5L2uxho-192k-1710662371.mp3" type="audio/mpeg">
+            </audio>
+          </figure>
+          <figure>
+              <figcaption class="firstsection">
+                  <h1>What is Rain Harvesting & why do it ?</h1>
+                  <p>information of it.</p>
+                  <a href=""><button class="GetStarted">Get started</button></a>
+              </figcaption>
+          </figure>
+        </div>
+
+        <!-- section 2 -->
+        <div>
+          <h3 style="color: #0766ad;">🌧️ Rainwater harvesting techniques</h3>
+          <figure >
+              <img src="Image/runoff.jpg" alt="" class="techniques">
+              <figcaption>
+                  <button class="collapsible">
+                      1. Surface Runoff Harvesting
+                  </button>
+                  <div class="content">
+                      <p>In urban areas, rainwater flows away as surface runoff. This runoff can be caught and used for recharging aquifers by adopting appropriate methods.
+                      </p>
+                  </div>                      
+              </figcaption>
+          </figure>
+  
+          <figure > 
+              <img src="Image/roof water.jpg" alt="" class="techniques">
+              <figcaption >
+                  <button class="collapsibleUnder">
+                      2. Rooftop Rainwater Harvesting
+                  </button>
+                  <div class="contentUnder">
+                      <p>It is a system of catching rainwater where it falls. In rooftop harvesting, the roof becomes the catchment, and the rainwater is collected from the roof of the house/building. It can either be stored in a tank or diverted to an artificial recharge system. This method is less expensive and very useful and, if implemented correctly, helps in augmenting the groundwater level of the area.
+                      </p>
+                  </div>                      
+              </figcaption>
+          </figure>
+        </div>
+
+        <!-- section 3 -->
+
+        <!-- carousel 1 -->
+        <h3 style="color: #0766ad;">🌧️ Our Services</h3>
+        <div class="container-fluid text-center my-3">
+       <div class="row">
+         <div class="row mx-auto my-auto justify-content-center">
+           <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-inner" role="listbox">
+               <div class="carousel-item active">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img card-img-top">
+                       <div class="card-img-container">
+                         <img alt="Slide 1" src="https://cdn.pixabay.com/photo/2020/09/26/07/05/sea-5603351_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img card-img-top">
+                       <div class="card-img-container">
+                         <img alt="Slide 2" src="https://cdn.pixabay.com/photo/2022/03/02/13/42/peace-7043225_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img">
+                       <div class="card-img-container">
+                         <img alt="Slide 3" src="https://cdn.pixabay.com/photo/2020/03/09/17/51/narcis-4916584_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img">
+                       <div class="card-img-container">
+                         <img alt="Slide 4" src="https://cdn.pixabay.com/photo/2022/03/04/15/14/river-7047522_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <a class="carousel-control-prev bg-transparent w-aut" href="#myCarousel" role="button" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             </a>
+             <a class="carousel-control-next bg-transparent w-aut" href="#myCarousel" role="button" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             </a>
+           </div>
+         </div>
+       </div>
+        </div>  
+        <div id="visible" class="d-none d-md-block"></div>
+        <!-- end carousel 1 -->
+    
+        <!-- carousel 1 -->
+        <h3 style="color: #0766ad;">🌧️ Our Projects</h3>
+        <div class="container-fluid text-center my-3">
+       <div class="row">
+         <div class="row mx-auto my-auto justify-content-center">
+           <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-inner" role="listbox">
+               <div class="carousel-item active">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img card-img-top">
+                       <div class="card-img-container">
+                         <img alt="Slide 1" src="https://cdn.pixabay.com/photo/2020/09/26/07/05/sea-5603351_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img card-img-top">
+                       <div class="card-img-container">
+                         <img alt="Slide 2" src="https://cdn.pixabay.com/photo/2022/03/02/13/42/peace-7043225_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img">
+                       <div class="card-img-container">
+                         <img alt="Slide 3" src="https://cdn.pixabay.com/photo/2020/03/09/17/51/narcis-4916584_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="col-md-3">
+                   <div class="card mx-1">
+                     <div class="card-img">
+                       <div class="card-img-container">
+                         <img alt="Slide 4" src="https://cdn.pixabay.com/photo/2022/03/04/15/14/river-7047522_1280.jpg">
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <a class="carousel-control-prev bg-transparent w-aut" href="#myCarousel" role="button" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             </a>
+             <a class="carousel-control-next bg-transparent w-aut" href="#myCarousel" role="button" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             </a>
+           </div>
+         </div>
+       </div>
+        </div>  
+        <div id="visible" class="d-none d-md-block"></div>
+        <!-- end carousel 1 -->
+        
+
+        <div>
+            <h3 style="color: #0766ad;">🌧️ Latest news</h3>
+            
+              <img src="Image/home image.jpg" alt="" style="width: 45%; height: 400px;">            
+              <img src="Image/roof water.jpg" alt="" style="width: 45%; height: 200px;">
+              <img src="Image/runoff.jpg" alt="" style="width: 45%; height: 200px;">
+          
+        </div>
+    </section>
+
+    <footer>
+        <div style="text-align: center;">
+            <a href="#top">Back To top</a>
+        </div>
+
+        <div style="background-color: #c5e898;">
+            <div class="container">
+                <h4 style="color: #0766ad;"><b>CONTACT:</b></h4>
+                <b>Hotline:</b> 1068.6801
+                <br>
+                <b>Email:</b> rainwaterharvesting2024@gmail.com
+                <br>
+                <b>Address:</b> 590 Cach Mang Thang 8, Ward 11, District 10, Ho Chi Minh City, VietNam.
+            </div>
+    
+            <div class="container">
+                <h4 style="color: #0766ad;"><b>FOLLOW US ON</b></h4>
+                <span >
+                    <span class="skill-icons--instagram"></span>
+                    <span class="devicon--facebook"></span>
+                    <span class="logos--youtube-icon"></span>
+                    <span class="logos--tiktok-icon"></span>
+                </span>
+            </div>
+        </div>
+    
+        <div style="background-color: #0766ad;">
+            <p style="color: white; align-content: center; text-align: center;">2024 Rainwater Harvesting. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
