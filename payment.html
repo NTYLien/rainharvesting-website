@@ -1,27 +1,144 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Thanh Toán</title>
+    <title>Document</title>
     <link rel="stylesheet" href="pament.css">
     <script src="payment.js"></script>
 </head>
+<style>
+    .highlight {
+        color: blue;
+        font-weight:bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+
+    }
+
+    .dropdown {
+        width: 100px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .dropdown2 {
+        width: 100px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .cvv{
+        justify-content: right;
+    }
+</style>
+
 <body>
-    <div class="container">
-        <form id="paymentForm">
-            <div class="form-group">
-                <label for="name">Họ và Tên</label>
-                <input type="text" id="name" name="name" required>
+    <button class="Search" type="button">
+
+        <input type="text" placeholder="Search..." />
+    </button>
+
+    <header>
+        <form action="Form2.css" method="GET">
+            <img src="logo.jpg" alt="">
+
+            <div class="Items">
+                <a href=""> <input type="button" value="🛒Items" /> </a>
+            </div> <br>
+            <div class="Icon">
+                <a href=""><input type="button" value="🩶"></a>
+            </div> <br>
+            <div class="Login">
+                <a href=""><input type="button" value="Login👤"></a>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <!-- Thêm các trường thông tin khác tại đây -->
-            <button type="submit">Tiến hành Thanh Toán</button>
+
         </form>
+    </header>
+    <nav>
+        <a href="" class="">Product</a>
+        <a href="Learn&ask.html" class="active">Learn & ask </a>
+        <a href="" class="">Our Project</a>
+        <a href="" class="">Lastest New</a>
+        <a href="" class="">About Us</a>
+        <a href="" class="">Interactive Tools </a>
+        <a href="" class="">Contact Us</a>
+    </nav>
+
+
+    <div class=" Cart">
+        <h2>View Your Shopping Cart <button><a href="payment.html" class="button"> Get started ⭢</a></button></h2>
     </div>
-    <script src="script.js"></script>
+    <div class="container">
+        <h2>BIILING ADDRESS</h2>
+        <p class="text">Same as your sign in account</p>
+        <b>Edit your recipient information</b>
+    </div> <br>
+    <form action="payment.html" method="GET">
+        <label class="name" for="Fullname">Full name <br>
+            <input class="fullname" type="text" name="Fullname" id="Fullname" placeholder="Enter name">
+        </label><br>
+        <label class="email2" for="Email">Email <br>
+            <input class="email" type="text" name="Email" id="Email" placeholder="Enter email">
+        </label> <br><br> <br><br>
+        <label class="Address" for="Address">Address <br>
+            <input class="address" type="text" name="Address" id="Address" placeholder="Enter address">
+        </label> <br>
+        <label class="City" for="city">City <br>
+            <input class="city" type="text" name="city" id="city" placeholder="Enter ciy">
+        </label> <br>
+        <label for="district">District</label> <br>
+        <select id="district" class="dropdown2">
+            <option value="">Choose</option>
+            <option value="Cuu Chi">Cuu Chi</option>
+            <option value="Binh Chanh">Binh Chanh</option>
+            <option value="Can Gio">Can Gio</option>
+            <option value="Hoc Mon">Hoc Mon</option>
+            <option value="Nha Be">Nha Be</option>
+            <!-- Thêm các năm khác tại đây -->
+        </select>
+        <label class="code" for="code">Zip code</label><br>
+        <input class="code2" type="text" name="cvv" id="cvv" placeholder="Zip code">
+        </label>
+    </form>
+
+    <div class="payment">
+        <h2>PAYMENT</h2>
+        <p>Accepted Card</p>
+        <p><span class="highlight">VISA PayPal</span> </p>
+
+    </div>
+    <form class="payment2" action="payment.html">
+        <label for="number">Credit Card Number <br>
+            <input class="number" type="text" name="number" id="number" placeholder="Enter card number">
+        </label><br><br>
+        <label for="month">Exp Month <br>
+            <input class="month" type="text" name="month" id="month" placeholder="Enter Month">
+        </label>
+
+        </label> <br> <br>
+        <label for="exp-year">Exp Year</label> <br>
+        <select id="exp-year" class="dropdown">
+            <option value="">Choose year</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2021">2022</option>
+            <option value="2021">2023</option>
+            <option value="2021">2024</option>
+            <!-- Thêm các năm khác tại đây -->
+        </select>
+        <label for="cvv">CVV</label><br>
+        <input class="cvv" type="text" name="cvv" id="cvv" placeholder="CVV">
+        </label> <br>
+        <label for="submit">
+            <input type="submit" value="Proceed to Checkout">
+        </label>
+    </form>
+
+
+
 </body>
+
 </html>

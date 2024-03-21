@@ -1,34 +1,193 @@
+img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    bottom: 20px;
+}
+
+
+.Search {
+    order: -1 !important;
+    padding-right: 13px !important;
+    align-content: end;
+    position: relative;
+    left: 800px;
+    top: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    position: relative;
+    right: 40px;
+    color: #3c99ce;
+
+}
+
+nav a {
+
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: normal;
+    font-display: swap;
+
+}
+
+.Items {
+
+
+    background-color: white;
+    border: 15px 15px 15px 15px;
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    align-items: right;
+    position: relative;
+    left: 990px;
+    bottom: 86px;
+
+}
+
+.Login {
+
+    background-color: white;
+    border: 5px 5px 5px 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    left: 1065px;
+    bottom: 86px;
+
+
+}
+
+.Icon {
+
+    background-color: white;
+    border: 5px 5px 5px 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    left: 1150px;
+    bottom: 87px;
+
+
+}
+
+nav a:hover {
+    color: red;
+}
+
 body {
     font-family: 'Arial', sans-serif;
 }
 
-.container {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
+.container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+button a {
+    text-align: right;
+    bottom: auto;
+    color: black;
+}
+
+.Cart {
+    background-color: rgb(19, 89, 94);
+}
+
+.Cart h2 {
+    color: white;
+    text-align: left;
+}
+
+#contactForm {
+    background-color: #DFF0D8;
     padding: 20px;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.text {
+    opacity: 50%;
 }
 
-input[type="text"],
-input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+.fullname {
+    border: 3px solid rgb(65, 64, 97);
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+.email {
+    border: 3px solid rgb(65, 64, 97);
 }
 
-button:hover {
-    background-color: #45a049;
+.address {
+    border: 3px solid rgb(65, 64, 97);
 }
+
+.city {
+    border: 3px solid rgb(65, 64, 97);
+}
+.code2{
+    border: 3px solid rgb(65, 64, 97); 
+    left:30px;
+}
+
+/* Chỉnh kích cỡ cho tất cả các phần tử input */
+input[type="text"] {
+    width: 20%;
+    /* Chiều rộng sẽ chiếm 100% chiều rộng của phần tử cha */
+    height: 20px;
+    /* Chiều cao cố định là 40 pixels */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các khung nhập liệu */
+    padding: 5px;
+    /* Đệm bên trong khung nhập liệu */
+}
+
+/* Bạn có thể chỉ định kích cỡ cho từng phần tử input cụ thể */
+#full-name {
+    width: 50%;
+    /* Ví dụ, chỉ chiếm 50% chiều rộng của phần tử cha */
+}
+
+#email {
+    width: 75%;
+    /* Ví dụ, chỉ chiếm 75% chiều rộng của phần tử cha */
+}
+
+/* Và cũng có thể thiết lập kích cỡ khi phần tử được focus */
+input[type="text"]:focus {
+    border: 2px solid blue;
+    /* Viền màu xanh khi phần tử được chọn */
+}
+.payment h2{
+    position: relative;
+    left:900px;
+    bottom: 550px;
+}
+.payment p{
+    position: relative;
+    left:900px;
+    bottom: 520px;
+}
+.payment2{
+    position: relative;
+    left:900px;
+    bottom: 520px;
+}
+.number{
+    border: 3px solid rgb(65, 64, 97);
+}
+.month{
+    border: 3px solid rgb(65, 64, 97);
+}
+.cvv{
+    border: 3px solid rgb(65, 64, 97);
+}
+
